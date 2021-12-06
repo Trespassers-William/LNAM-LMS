@@ -1,0 +1,25 @@
+{
+  "types": [
+    "date",
+    "int",
+    "string",
+    "boolean",
+    "array",
+    "object",
+    "enum",
+    "tuple",
+    "uuid"
+  ],
+  "principals": [
+    "administrator",
+    "supervisor",
+    "bookkeeper",
+    "HR",
+    "...",
+    "guest"
+  ],
+  "bachelors": ["student"],
+  "magisters": ["student"],
+  "postgraduates": ["student"],
+  "employees": ["employee"]
+}

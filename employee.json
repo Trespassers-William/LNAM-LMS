@@ -1,0 +1,943 @@
+{
+  "employee": [
+    {
+      "name": "ID працівника",
+      "SQLfield": "",
+      "type": "int",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Посада",
+      "SQLfield": "",
+      "type": "enum",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Факультет/Відділення/Інститут",
+      "SQLfield": "",
+      "type": "int",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "факультет, на якому працює особа (коротка назва)",
+      "SQLfield": "",
+      "type": "enum",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "факультет, на якому працює особа",
+      "SQLfield": "",
+      "type": "enum",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Кафедра/Науковий підрозділ тощо",
+      "SQLfield": "",
+      "type": "int",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Кафедра, на якій працює особа (коротка назва)",
+      "SQLfield": "",
+      "type": "enum",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Кафедра, на якій працює особа",
+      "SQLfield": "",
+      "type": "enum",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Трудовий статус посади (основне місце роботи, суміщення, сумісництво)",
+      "SQLfield": "",
+      "type": "enum",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Фізична особа",
+      "SQLfield": "",
+      "type": "array",
+      "value": [
+        {
+          "name": "ПІБ",
+          "SQLfield": "",
+          "type": "string",
+          "value": "",
+          "permissions": [
+            {
+              "principal": "administrator",
+              "access": "allowed"
+            },
+            {
+              "principal": "guest",
+              "access": "denied"
+            }
+          ]
+        },
+        {
+          "name": "Дата народження",
+          "SQLfield": "",
+          "type": "date",
+          "value": "",
+          "permissions": [
+            {
+              "principal": "administrator",
+              "access": "allowed"
+            },
+            {
+              "principal": "guest",
+              "access": "denied"
+            }
+          ]
+        },
+        {
+          "name": "Громадянство",
+          "SQLfield": "",
+          "type": "enum",
+          "value": "",
+          "permissions": [
+            {
+              "principal": "administrator",
+              "access": "allowed"
+            },
+            {
+              "principal": "guest",
+              "access": "denied"
+            }
+          ]
+        },
+        {
+          "name": "Стать",
+          "SQLfield": "",
+          "type": "enum",
+          "value": "",
+          "permissions": [
+            {
+              "principal": "administrator",
+              "access": "allowed"
+            },
+            {
+              "principal": "guest",
+              "access": "denied"
+            }
+          ]
+        },
+        {
+          "name": "ID",
+          "SQLfield": "",
+          "type": "int",
+          "value": "",
+          "permissions": [
+            {
+              "principal": "administrator",
+              "access": "allowed"
+            },
+            {
+              "principal": "guest",
+              "access": "denied"
+            }
+          ]
+        },
+        {
+          "name": "Код",
+          "SQLfield": "",
+          "type": "uuid",
+          "value": "",
+          "permissions": [
+            {
+              "principal": "administrator",
+              "access": "allowed"
+            },
+            {
+              "principal": "guest",
+              "access": "denied"
+            }
+          ]
+        },
+        {
+          "name": "Інформація, якщо особа прив'язана",
+          "SQLfield": "",
+          "type": "object",
+          "value": {
+            "ПІБ": "Півчеревичок Роман Петрович",
+            "Дата народження": "11.05.1956",
+            "Громадянство": "Україна",
+            "Стать": "Чоловіча"
+          },
+          "permissions": [
+            {
+              "principal": "administrator",
+              "access": "allowed"
+            },
+            {
+              "principal": "guest",
+              "access": "denied"
+            }
+          ]
+        },
+        {
+          "name": "Інформація",
+          "SQLfield": "",
+          "type": "object",
+          "value": {
+            "ПІБ": "Півчеревичок Роман Петрович",
+            "Дата народження": "11.05.1956",
+            "Громадянство": "Україна",
+            "Стать": "Чоловіча"
+          },
+          "permissions": [
+            {
+              "principal": "administrator",
+              "access": "allowed"
+            },
+            {
+              "principal": "guest",
+              "access": "denied"
+            }
+          ]
+        }
+      ],
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Початок роботи в закладі",
+      "SQLfield": "",
+      "type": "date",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Дата звільнення із закладу",
+      "SQLfield": "",
+      "type": "date",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Дата початку стажу",
+      "SQLfield": "",
+      "type": "date",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Стаж науково-педагогічної та/або наукової роботи",
+      "SQLfield": "",
+      "type": "array",
+      "value": [
+        {
+          "name": "ID типу",
+          "SQLfield": "",
+          "type": "int",
+          "value": "",
+          "permissions": [
+            {
+              "principal": "administrator",
+              "access": "allowed"
+            },
+            {
+              "principal": "guest",
+              "access": "denied"
+            }
+          ]
+        },
+        {
+          "name": "Назва типу",
+          "SQLfield": "",
+          "type": "enum",
+          "value": "",
+          "permissions": [
+            {
+              "principal": "administrator",
+              "access": "allowed"
+            },
+            {
+              "principal": "guest",
+              "access": "denied"
+            }
+          ]
+        },
+        {
+          "name": "Повних років",
+          "SQLfield": "",
+          "type": "int",
+          "value": "",
+          "permissions": [
+            {
+              "principal": "administrator",
+              "access": "allowed"
+            },
+            {
+              "principal": "guest",
+              "access": "denied"
+            }
+          ]
+        }
+      ],
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Безперервний стаж",
+      "SQLfield": "",
+      "type": "boolean",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Місце основної роботи, найменування посади",
+      "SQLfield": "",
+      "type": "",
+      "value": "string",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Відомості про підвищення кваліфікації",
+      "SQLfield": "",
+      "type": "array",
+      "value": [],
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Професія",
+      "SQLfield": "",
+      "type": "",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Педагогічні звання",
+      "SQLfield": "",
+      "type": "",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Кваліфікаційна категорія",
+      "SQLfield": "",
+      "type": "",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Розряд",
+      "SQLfield": "",
+      "type": "",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Заклад, який закінчів",
+      "SQLfield": "",
+      "type": "object",
+      "value": {
+        "Диплом бакалавра видано закладом": "ЛЬВІВСЬКИЙ ДЕРЖАВНИЙ ІНСТИТУТ ПРИКЛАДНОГО ТА ДЕКОРАТИВНОГО МИСТЕЦТВА",
+        "Рік закінчення": "1982"
+      },
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Науковий ступінь, вчене звання",
+      "SQLfield": "",
+      "type": "object",
+      "value": {
+        "Вчене звання": "Професор",
+        "Почесне звання": "Народний художник",
+        "Науковий ступінь": ""
+      },
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Інформація про наукову діяльність",
+      "SQLfield": "",
+      "type": "object",
+      "value": {
+        "основні публікації за напрямом": [
+          "«Національна традидиція в архітектурі вокзалів С.Тимошенка» //Вісник ХДСМ. – Харків. – 2013 р.",
+          "«Ретроспективізм в архітектурі вокзалів України ІІ пол..ХІХ – І трет. ХХ ст..» //Вісник ЛНАМ, Львів, 2014 р."
+        ],
+        "науково-дослідні роботи": [
+          "Проект весільного залу ресторану «Гуцульський двір», Львів, 2016 р.",
+          "Проект виставкового комплексу «південний ЕКСПО, Львів, 2017 р.",
+          "Проект експозиційної зали овочевого терміналу ринку «Шувар», Львів, 2017 р.",
+          "Проект офісу ринку «Шувар», Львів, 2017 р.",
+          "Проект фітнес-центру «Три стихії», Львів, 2015 р.",
+          "Проект індивідуального житла в стилі етно ЖК «Америка», Львів, 2018 р."
+        ]
+      },
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Досягнення у професійній діяльності",
+      "SQLfield": "",
+      "type": "object",
+      "value": {
+        "наявність не менше п’яти публікацій у періодичних наукових виданнях, що включені до переліку фахових видань України, до наукометричних баз, зокрема Scopus, Web of Science Core Collection": [
+          "«Національна традидиція в архітектурі вокзалів С.Тимошенка» //Вісник ХДСМ. – Харків. – 2013р.",
+          "«Ретроспективізм в архітектурі вокзалів України ІІ пол..ХІХ – І трет. ХХ ст..» //Вісник ЛНАМ, Львів, 2014р"
+        ],
+        "творчі роботи": [
+          "Проект весільного залу ресторану «Гуцульський двір», Львів, 2016р",
+          "Проект виставкового комплексу «південний ЕКСПО, Львів, 2017",
+          "Проект експозиційної зали овочевого терміналу ринку «Шувар», Львів, 2017",
+          "Проект офісу ринку «Шувар», Львів, 2017",
+          "Проект фітнес-центру «Три стихії», Львів, 2015",
+          "Проект індивідуального житла в стилі етно ЖК «Америка», Львів, 2018"
+        ],
+        "наявність виданих навчально-методичних посібників/посібників для самостійної роботи здобувачів вищої освіти та дистанційного навчання, електронних курсів на освітніх платформах ліцензіатів, конспектів лекцій/практикумів/методичних вказівок/рекомендацій/ робочих програм, інших друкованих навчально-методичних праць загальною кількістю три найменування": [
+          "Методичні рекомендації для виконання практичних завдань з дисципліни «Формотворення» для студентів 1 курсу ОР «Бакалавр», ЛНАМ, 2018, с.14.",
+          "Методичні рекомендації до виконання практичних завдань з навчальної дисципліни \"Проектування зовнішнього середовища\" для студентів 4 курсу ОР «Бакалавр» кафедри \"Дизайн середовища\", ЛНАМ, 2018, 13 с.",
+          "Методичні рекомендації до виконання практичних завдань з навчальної дисципліни \"Конструювання та технологія сучасних матеріалів в інтер’єрі\" студентів 4 курсу ОР «Бакалавр» кафедри \"Дизайн середовища\", ЛНАМ, 2017, 15 с."
+        ],
+        "діяльність за спеціальністю у формі участі у професійних та/або громадських об’єднаннях": [
+          "Майстерня дизайну та архітектури Etnospace, м.Львів, з 2015 року."
+        ],
+        "досвід практичної роботи за спеціальністю (спеціалізацією)/професією не менше п’яти років (крім педагогічної, науково-педагогічної, наукової діяльності) із зазначенням посади та строку роботи на цій посаді": [
+          "Досвід практичної роботи за спеціальністю проектування житлових і громадських інтер’єрів (на засадах фрілансера) з 2005р.",
+          "Досвід викладацької роботи 8 років"
+        ]
+      },
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Чи працює (а не звільнений)",
+      "SQLfield": "",
+      "type": "int",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Дата останньої зміни",
+      "SQLfield": "",
+      "type": "date",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "ПІБ хто змінив",
+      "SQLfield": "",
+      "type": "string",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Зі старої системи",
+      "SQLfield": "",
+      "type": "array",
+      "value": [
+        {
+          "name": "ПІБ",
+          "SQLfield": "",
+          "type": "string",
+          "value": "",
+          "permissions": [
+            {
+              "principal": "administrator",
+              "access": "allowed"
+            },
+            {
+              "principal": "guest",
+              "access": "denied"
+            }
+          ]
+        },
+        {
+          "name": "стаж науково-педагогічної та/або наукової роботи",
+          "SQLfield": "",
+          "type": "int",
+          "value": "",
+          "permissions": [
+            {
+              "principal": "administrator",
+              "access": "allowed"
+            },
+            {
+              "principal": "guest",
+              "access": "denied"
+            }
+          ]
+        },
+        {
+          "name": "найменування закладу, який закінчив викладач(рік закінчення, спеціальність, кваліфікація згідно з документом про вищу освіту)",
+          "SQLfield": "",
+          "type": "string",
+          "value": "",
+          "permissions": [
+            {
+              "principal": "administrator",
+              "access": "allowed"
+            },
+            {
+              "principal": "guest",
+              "access": "denied"
+            }
+          ]
+        },
+        {
+          "name": "документ про наукові ступені(тип, серія, №, дата видачі, ким виданий, атестаційний орган, №, дата рішення, код (шифр) та назва наукової спеціальності, тема дисертації)",
+          "SQLfield": "",
+          "type": "object",
+          "value": {
+            "доцент": "Доцент по кафедрі",
+            "атестат": "ДЦ 004225",
+            "дата видачі": "04.04.1997",
+            "рішення": "Вчена рада вищого навчального закладу, установи, організації, рішення №7 від 04.04.1997, кафедра РИСУНКУ"
+          },
+          "permissions": [
+            {
+              "principal": "administrator",
+              "access": "allowed"
+            },
+            {
+              "principal": "guest",
+              "access": "denied"
+            }
+          ]
+        },
+        {
+          "name": "документ про вчені звання(тип, серія, №, дата видачі, ким виданий, атестаційний орган, №, дата рішення, назва кафедри (спеціальності), за якою присвоєне)",
+          "SQLfield": "",
+          "type": "object",
+          "value": {},
+          "permissions": [
+            {
+              "principal": "administrator",
+              "access": "allowed"
+            },
+            {
+              "principal": "guest",
+              "access": "denied"
+            }
+          ]
+        },
+        {
+          "name": "інформація про державні нагороди та почесні звання, членство в НАНУ та національних академіях наук",
+          "SQLfield": "",
+          "type": "array",
+          "value": [
+            {
+              "звання": "Народний художник України",
+              "документ": "ПЗ №009587"
+            }
+          ],
+          "permissions": [
+            {
+              "principal": "administrator",
+              "access": "allowed"
+            },
+            {
+              "principal": "guest",
+              "access": "denied"
+            }
+          ]
+        },
+        {
+          "name": "інформація про наукову діяльність(основні публікації за напрямом, науково-дослідна робота, участь у конференціях і семінарах, робота з аспірантами та докторантами, керівництво науковою роботою студентів)",
+          "SQLfield": "",
+          "type": "",
+          "value": "",
+          "permissions": [
+            {
+              "principal": "administrator",
+              "access": "allowed"
+            },
+            {
+              "principal": "guest",
+              "access": "denied"
+            }
+          ]
+        },
+        {
+          "name": "педагогічне звання",
+          "SQLfield": "",
+          "type": "",
+          "value": "",
+          "permissions": [
+            {
+              "principal": "administrator",
+              "access": "allowed"
+            },
+            {
+              "principal": "guest",
+              "access": "denied"
+            }
+          ]
+        },
+        {
+          "name": "кваліфікаційна категорія за посадою",
+          "SQLfield": "",
+          "type": "",
+          "value": "",
+          "permissions": [
+            {
+              "principal": "administrator",
+              "access": "allowed"
+            },
+            {
+              "principal": "guest",
+              "access": "denied"
+            }
+          ]
+        },
+        {
+          "name": "найменування навчальних дисциплін, які закріплені за викладачем, та кількість лекційних годин з кожної",
+          "SQLfield": "",
+          "type": "array",
+          "value": [
+            {
+              "предмет": "Рисунок",
+              "кількість лекційних годин": ""
+            },
+            {
+              "предмет": "Композиція",
+              "кількість лекційних годин": ""
+            }
+          ],
+          "permissions": [
+            {
+              "principal": "administrator",
+              "access": "allowed"
+            },
+            {
+              "principal": "guest",
+              "access": "denied"
+            }
+          ]
+        }
+      ],
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "ІД педагогічних звань",
+      "SQLfield": "",
+      "type": "",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "ІД кваліфікаційної категорії",
+      "SQLfield": "",
+      "type": "",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    }
+  ]
+}

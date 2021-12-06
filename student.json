@@ -1,0 +1,987 @@
+{
+  "student": [
+    {
+      "name": "Дата завантаження",
+      "SQLfield": "",
+      "type": "date",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "ID картки",
+      "SQLfield": "",
+      "type": "int",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Статус з",
+      "SQLfield": "",
+      "type": "date",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Статус навчання",
+      "SQLfield": "",
+      "type": "enum",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "ID ФО",
+      "SQLfield": "",
+      "type": "int",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Здобувач",
+      "SQLfield": "",
+      "type": "string",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Дата народження",
+      "SQLfield": "",
+      "type": "date",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Тип ДПО",
+      "SQLfield": "",
+      "type": "enum",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Серія документа",
+      "SQLfield": "",
+      "type": "string",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Номер документа",
+      "SQLfield": "",
+      "type": "string",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Дата видачі",
+      "SQLfield": "",
+      "type": "date",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Дійсний до",
+      "SQLfield": "",
+      "type": "date",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Стать",
+      "SQLfield": "",
+      "type": "enum",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Громадянство",
+      "SQLfield": "",
+      "type": "enum",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "ПІБ англійською",
+      "SQLfield": "",
+      "type": "string",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "РНОКПП",
+      "SQLfield": "",
+      "type": "int",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Валідний РНОКПП",
+      "SQLfield": "",
+      "type": "boolean",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Рік ліцензійних обсягів",
+      "SQLfield": "",
+      "type": "int",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Початок навчання",
+      "SQLfield": "",
+      "type": "date",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Завершення навчання",
+      "SQLfield": "",
+      "type": "date",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Дата прийому на навчання на наступний рівень освіти або офіційного засвідчення отриманих документів про освіту",
+      "SQLfield": "",
+      "type": "date",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Структурний підрозділ",
+      "SQLfield": "",
+      "type": "enum",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Чи здобуває освітній ступінь за дуальною формою навчання",
+      "SQLfield": "",
+      "type": "boolean",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Освітній ступінь (рівень)",
+      "SQLfield": "",
+      "type": "enum",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Вступ на основі",
+      "SQLfield": "",
+      "type": "enum",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Форма навчання",
+      "SQLfield": "",
+      "type": "enum",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Джерело фінансування",
+      "SQLfield": "",
+      "type": "enum",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Чи здобувався ступень за іншою спеціальністю",
+      "SQLfield": "",
+      "type": "boolean",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Чи скорочений термін навчання",
+      "SQLfield": "",
+      "type": "boolean",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Спеціальність",
+      "SQLfield": "",
+      "type": "tuple",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Спеціалізація",
+      "SQLfield": "",
+      "type": "tuple",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "ID ОП",
+      "SQLfield": "",
+      "type": "int",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Освітня програма",
+      "SQLfield": "",
+      "type": "enum",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Професія",
+      "SQLfield": "",
+      "type": "",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Курс",
+      "SQLfield": "",
+      "type": "int",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Група",
+      "SQLfield": "",
+      "type": "",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Тип іноземця",
+      "SQLfield": "",
+      "type": "enum",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Код категорії",
+      "SQLfield": "",
+      "type": "array",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Чи є в картці документ про освіту",
+      "SQLfield": "",
+      "type": "boolean",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Чи є в картці студенський (учнівський) квиток",
+      "SQLfield": "",
+      "type": "boolean",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Чи є в картці академічна довідка (освітня декларація)",
+      "SQLfield": "",
+      "type": "boolean",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Причина відрахування",
+      "SQLfield": "",
+      "type": "",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Підстави надання академічної відпустки",
+      "SQLfield": "",
+      "type": "",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Статус по",
+      "SQLfield": "",
+      "type": "",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Статус диплома в замовленні документів",
+      "SQLfield": "",
+      "type": "",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Статус студенського (учнівського) квитка в замовленні документів",
+      "SQLfield": "",
+      "type": "enum",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Статус свідоцтва про присвоєння (підвищення) робітничої кваліфікації в замовленні документів",
+      "SQLfield": "",
+      "type": "",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Рік бюджету",
+      "SQLfield": "",
+      "type": "int",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Наказ про зарахування",
+      "SQLfield": "",
+      "type": "object",
+      "value": {
+        "Код наказу про зарахування": "215161",
+        "Номер наказу": "61 тр",
+        "Дата наказу": "13.08.2021"
+      },
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Попередній заклад освіти",
+      "SQLfield": "",
+      "type": "string",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Документ про освіту",
+      "SQLfield": "",
+      "type": "object",
+      "value": {
+        "Диплом молодшого спеціаліста": "E21 107907, 30.06.2021",
+        "Ким видано": "Комунальний заклад Львівської обласної ради \"Львівський фаховий коледж декоративного і ужиткового мистецтва ім. І. Труша\""
+      },
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Інформація про попереднє навчання",
+      "SQLfield": "",
+      "type": "",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Академічна довідка (освітня декларація)",
+      "SQLfield": "",
+      "type": "",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Студентський (учнівський) квиток",
+      "SQLfield": "",
+      "type": "object",
+      "value": {
+        "number": "BK 13696313",
+        "date": "10.10.2021"
+      },
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Виданий диплом",
+      "SQLfield": "",
+      "type": "",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Інформація про зарахування",
+      "SQLfield": "",
+      "type": "object",
+      "value": {
+        "Код наказу про зарахування": "227361",
+        "Номер наказу": "90 тр",
+        "Дата наказу": "19.10.2021",
+        "Код заяви на вступ": "10290862"
+      },
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    },
+
+    {
+      "name": "Час останньої зміни",
+      "SQLfield": "",
+      "type": "date",
+      "value": "",
+      "permissions": [
+        {
+          "principal": "administrator",
+          "access": "allowed"
+        },
+        {
+          "principal": "guest",
+          "access": "denied"
+        }
+      ]
+    }
+  ]
+}
